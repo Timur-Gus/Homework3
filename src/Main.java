@@ -15,6 +15,15 @@ public class Main {
         System.out.println("Значение переменной valueDouble с типом double равно " + valueDouble);
         System.out.println("Значение переменной valueFloat с типом float равно " + valueFloat);
 
+        //Задача 2
+
+        float fValue = 27.12f;
+        long lValue = 987678965549L;
+        double dValue = 2,786;
+        short sValue = 569;
+        int iValue = -159;
+        char chValue = 27897;
+        byte bValue = 67;
 
     }
 }
