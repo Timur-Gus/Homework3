@@ -84,6 +84,27 @@ public class Main {
         System.out.println("Если спортсмен будет терять каждый день по 500 грамм, то на похудение уйдет: " + totalDay2 + " дней");
         System.out.println("В среднем на похудение уйдет: " + averageDay + " дней");
 
+        //Задача 8
 
-    }
+        int mashaSalary = 67760;
+        int denisSalary = 83690;
+        int kristinaSalary = 76230;
+        double coefficient = 0.1;
+        double mashaSalaryAfterIncrease = mashaSalary + (mashaSalary * coefficient);
+        double denisSalaryAfterIncrease = denisSalary + (denisSalary * coefficient);
+        double kristinaSalaryAfterIncrease = kristinaSalary + (kristinaSalary * coefficient);
+        int yearDenisSalary = denisSalary * 12;
+        int yearMashaSalary = mashaSalary * 12;
+        int yearKristinaSalary = kristinaSalary * 12;
+        double yearMashaSalaryAfterIncrease = mashaSalaryAfterIncrease * 12;
+        double yearDenisSalaryAfterIncrease = denisSalaryAfterIncrease * 12;
+        double yearKristinaSalaryAfterIncrease = kristinaSalaryAfterIncrease * 12;
+        double mashaIncomeGrowth = yearMashaSalaryAfterIncrease - yearMashaSalary;
+        double denisIncomeGrowth = yearDenisSalaryAfterIncrease - yearDenisSalary;
+        double kristinaIncomeGrowth = yearKristinaSalaryAfterIncrease - yearKristinaSalary;
+        System.out.println("Маша теперь получает " + mashaSalaryAfterIncrease + " рублей. Годовой доход вырос на " + mashaIncomeGrowth + " рублей");
+        System.out.println("Денис теперь получает " + denisSalaryAfterIncrease + " рублей. Годовой доход вырос на " + denisIncomeGrowth + " рублей");
+        System.out.println("Кристина теперь получает " + kristinaSalaryAfterIncrease + " рублей. Годовой доход вырос на " + kristinaIncomeGrowth + " рублей");
+
+}
 }
