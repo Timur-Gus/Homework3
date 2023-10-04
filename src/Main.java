@@ -52,9 +52,6 @@ public class Main {
         System.out.println("За месяц машина произвела " + bottlesPerTime + " штук бутылок");
 
         //Задача 5
-//        На ремонт школы нужно 120 банок краски двух цветов: белой и коричневой. На один класс уходит 2 банки белой и 4 банки коричневой краски.
-//
-//        Выведите результат задачи в консоль в формате: «В школе, где … классов, нужно … банок белой краски и … банок коричневой краски».
 
         int totalCanPaint = 120;
         int oneClassCanPaint = 2 + 4;
@@ -63,5 +60,17 @@ public class Main {
         int brownPaint = 4 * totalClass;
         System.out.println("В школе, где " + totalClass + " классов, нужно " + whitePaint
                 + " банок белой краски и " + brownPaint + " банок коричневой краcки");
+
+        // Задача 6
+
+        int weightBananas = 5 * 80;
+        int weightMilk = (200 / 100) * 105;
+        int weightIceCream = 2 * 100;
+        int weightEggs = 4 * 70;
+        int totalWeightGr = weightBananas + weightMilk + weightIceCream + weightEggs;
+        double totalWeightKg = (double) totalWeightGr / 1000;
+        System.out.println("Вес спортзавтрака в граммах: " + totalWeightGr);
+        System.out.println("Вес спортзавтрака в килограммах: " + totalWeightKg);
+
     }
 }
