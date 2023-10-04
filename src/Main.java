@@ -19,11 +19,10 @@ public class Main {
 
         float fValue = 27.12f;
         long lValue = 987678965549L;
-        double dValue = 2,786;
+        double dValue = 2.786;
         short sValue = 569;
         int iValue = -159;
         char chValue = 27897;
         byte bValue = 67;
-
     }
 }
