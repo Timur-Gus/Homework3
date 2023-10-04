@@ -72,5 +72,18 @@ public class Main {
         System.out.println("Вес спортзавтрака в граммах: " + totalWeightGr);
         System.out.println("Вес спортзавтрака в килограммах: " + totalWeightKg);
 
+        //Задача 7
+
+        int weight = 7 * 1000;
+        int weightOneDay1 = 250;
+        int weightOneDay2 = 500;
+        int totalDay1 = weight / weightOneDay1;
+        int totalDay2 = weight / weightOneDay2;
+        int averageDay = (totalDay1 + totalDay2) / 2;
+        System.out.println("Если спортсмен будет терять каждый день по 250 грамм, то на похудение уйдет: " + totalDay1 + " дней");
+        System.out.println("Если спортсмен будет терять каждый день по 500 грамм, то на похудение уйдет: " + totalDay2 + " дней");
+        System.out.println("В среднем на похудение уйдет: " + averageDay + " дней");
+
+
     }
 }
