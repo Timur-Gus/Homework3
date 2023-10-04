@@ -34,5 +34,25 @@ public class Main {
         int sheetOneStudent = totalSheetsPaper / (studentsAnnaSergeevna + studentsEkaterinaAndreevna + studentsLudmilaPavlovna);
 
         System.out.println("На каждого ученика рассчитано " + sheetOneStudent + " листов бумаги");
+
+        //Задача 4
+
+        int machinePerformanceOneMin = 16/2;
+        int time = 20;
+        int bottlesPerTime = machinePerformanceOneMin * time;
+        System.out.println("За 20 мин машина произвела " + bottlesPerTime + " штук бутылок");
+        time = 24 * 60;
+        bottlesPerTime = machinePerformanceOneMin * time;
+        System.out.println("За сутки машина произвела " + bottlesPerTime + " штук бутылок");
+        time = time * 3;
+        bottlesPerTime = machinePerformanceOneMin * time;
+        System.out.println("За 3 суток машина произвела " + bottlesPerTime + " штук бутылок");
+        time = time * 10;
+        bottlesPerTime = machinePerformanceOneMin * time;
+        System.out.println("За месяц машина произвела " + bottlesPerTime + " штук бутылок");
+
+
+
+
     }
 }
