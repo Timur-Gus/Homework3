@@ -24,5 +24,15 @@ public class Main {
         int iValue = -159;
         char chValue = 27897;
         byte bValue = 67;
+
+        //Задача 3
+
+        int studentsLudmilaPavlovna = 23;
+        int studentsAnnaSergeevna = 27;
+        int studentsEkaterinaAndreevna = 30;
+        int totalSheetsPaper = 480;
+        int sheetOneStudent = totalSheetsPaper / (studentsAnnaSergeevna + studentsEkaterinaAndreevna + studentsLudmilaPavlovna);
+
+        System.out.println("На каждого ученика рассчитано " + sheetOneStudent + " листов бумаги");
     }
 }
