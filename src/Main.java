@@ -51,8 +51,17 @@ public class Main {
         bottlesPerTime = machinePerformanceOneMin * time;
         System.out.println("За месяц машина произвела " + bottlesPerTime + " штук бутылок");
 
+        //Задача 5
+//        На ремонт школы нужно 120 банок краски двух цветов: белой и коричневой. На один класс уходит 2 банки белой и 4 банки коричневой краски.
+//
+//        Выведите результат задачи в консоль в формате: «В школе, где … классов, нужно … банок белой краски и … банок коричневой краски».
 
-
-
+        int totalCanPaint = 120;
+        int oneClassCanPaint = 2 + 4;
+        int totalClass = totalCanPaint / oneClassCanPaint;
+        int whitePaint = 2 * totalClass;
+        int brownPaint = 4 * totalClass;
+        System.out.println("В школе, где " + totalClass + " классов, нужно " + whitePaint
+                + " банок белой краски и " + brownPaint + " банок коричневой краcки");
     }
 }
